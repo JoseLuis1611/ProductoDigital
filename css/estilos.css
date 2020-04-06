@@ -1,0 +1,152 @@
+
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+/* ------------------- Variables */
+:root{   /*Todo lo que se ponga en root va ser accesible para las demas que estan abajo*/
+--green-color:#90FA2C;
+--white-color:white;
+}
+
+
+/* ------------------- Variables */
+
+
+html,body{
+  padding:0;
+  margin:0;
+  font-family: 'Open Sans', sans-serif;
+  color:black;
+}
+
+/*el padding y el margin es una distancia de espaciado
+y se le quita para agregar elementos en la pagina*/
+
+nav{
+  display: flex;  /*sirve para que se ponga en horizontal(al salir las opciones en vertical se puso para que salga al lado) */
+  background-color: #90FA2C;  /*Este codigo de color se saco de internet*/
+  padding: 10px;
+  justify-content: space-between;   /*Pone a una distancia por igual a los elementos que hay dentro*/
+  align-items: center; /*Alinea hacia el centro verticalmente los componentes */
+  width: 100%;
+  min-height: 60px;
+}
+
+nav ul{
+  display:flex;
+}
+
+nav ul li{
+  padding-right: 20px;
+  list-style: none;  /*Le quita estilo a los elemtos de la lista (el puntito)*/
+}
+
+nav li a{
+  color:black;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+/* Esto sirve para que realice una accion. En este caso cambiara de color al pasar el mouse por el link */
+nav li a:hover{
+  color:white;
+}
+
+/* ---------------------------------Main Section ----------------------------*/
+
+.main_section{
+  padding: 15%;
+  text-align: center;
+}
+
+.productos{
+  background-image: url("../Images/curve.png");
+  padding:15%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 95px;    /*Altura*/
+  background-size: cover;  /*Significa que ocupe el tamaño del div q lo llame*/
+}
+
+.producto{
+  padding: 20px;
+  margin-top: -225px;
+}
+
+.producto .contenido{
+  padding:20px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow:0px 0 2px 1px #c1bcbc;  /*Genera sombra*/
+}
+
+.imagen_contenido{
+  text-align: center;
+}
+
+.main_button{
+  padding: 10px;
+  background-color:#90FA2C;
+  width: 100%; /*Para que ocupe todo el espacio de nuestra tarjeta*/
+  border: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+  color:white;
+  margin-bottom: 15px;
+}
+
+.main_button:hover{
+  background-color:#60a91b;
+}
+
+.descripciones{
+  display: flex;
+  padding: 10%;
+  justify-content: space-between;
+}
+
+.descripcion{
+  padding:20px;
+  margin-bottom: 20px;
+}
+
+.descripcion h1{
+  font-size: 20px;
+  text-align: center;
+}
+
+.descripcion img{
+  max-height: 100px;
+}
+
+footer div h1{
+  text-align: center;
+}
+
+.Menciones{
+  display: flex;
+  padding: 20px 80px;
+  justify-content: space-between;
+}
+
+.Mencion{
+  background-color: #f1f1e2;
+  border-radius: 10px;
+  /* box-shadow: 0 0 1px #c1bcbc;  /*Genera sombra*/
+  overflow: hidden;
+  margin: 2%;
+  margin-bottom: 20px;
+}
+
+.Mencion img{
+  width: 100%;
+}
+
+.Mencion h1{
+  margin: 16px 0px 5px 0px;
+}
+.Mencion  p{
+  font-size: 15px;
+  margin:0;
+  padding:3px 10px 10px 10px;
+
+}
