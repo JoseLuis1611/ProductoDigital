@@ -1,0 +1,52 @@
+.fadeIn{
+  animation-duration:4s; /* define la duracion de la animacion */
+  animation-fill-mode: both; /* se va cumplir la regla de ida como de regreso */
+  animation-name: fadeIn; /* le da el nombre a la animacion */
+}
+
+/* Para hacer animaciones requiere de 2 cosas: la clase y el keyframe */
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+
+}
+
+.fadeInDown{
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown{
+  from{
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+  }
+}
+
+.fadeInUp{
+  animation-duration: 5s;
+  animation-fill-mode: both;
+  animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp{
+  from{
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to{
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
