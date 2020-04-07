@@ -102,6 +102,8 @@ nav li a:hover{
   display: flex;
   padding: 10%;
   justify-content: space-between;
+  padding-bottom: 5px;
+  padding-top: 50px;
 }
 
 .descripcion{
@@ -118,8 +120,9 @@ nav li a:hover{
   max-height: 100px;
 }
 
-footer div h1{
+.title-menciones h1{
   text-align: center;
+  margin-bottom: 0;
 }
 
 .Menciones{
@@ -142,11 +145,27 @@ footer div h1{
 }
 
 .Mencion h1{
-  margin: 16px 0px 5px 0px;
+  margin: 8px 0px 5px 0px;
+  text-align: center;
 }
 .Mencion  p{
   font-size: 15px;
   margin:0;
   padding:3px 10px 10px 10px;
+}
 
+.image-producto{
+  width: 200px;
+}
+
+.pack-product{
+  align-items: center;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  background-color: black;
+  padding: 10px;
+  color: white;
 }
