@@ -1,0 +1,14 @@
+body{
+  background: black;
+  text-align: center;
+  color: white;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /*  hace que el body ocupe toda la pantalla */
+}
+
+.content-paypal a{
+  color: #90FA2C;
+  
+}
