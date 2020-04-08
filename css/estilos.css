@@ -173,7 +173,7 @@ label{
 
 .modulo_pago .main_button{
   margin-top: 17px;
-  margin-bottom: 20px;  
+  margin-bottom: 20px;
 }
 
 .venta_data{
@@ -197,4 +197,8 @@ footer{
   background-color: black;
   padding: 10px;
   color: white;
+}
+
+.contact a{
+  color: #90FA2C;
 }
